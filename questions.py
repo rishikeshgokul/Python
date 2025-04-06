@@ -1,9 +1,9 @@
 
 t=float(input("temperature: "))
-unit=input("choose unit('k' OR 'f' OR 'c'): ")
+unit=input("choose unit('K' OR 'F' OR 'C'): ")
 
 
-if unit=="c":
+if unit=="C":
     print("Temperature in Fahrenheit=",t*(9/5)+32,"F",sep=(""))
     print("Temperature in Kelvin=",t+273.15,"K",sep=(""))
 
